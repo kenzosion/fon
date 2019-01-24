@@ -4,10 +4,15 @@
   --mainWhite:#f3f3f3;
   --mainDark:#250f0f;
   --mainYellow: #dcfa59;
+  --mainBlue: #2806c0;
 }
 
 body {
   font-family: sans-serif, Helvetica !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
+}
+
+.text-blue {
+  color
 }
