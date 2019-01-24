@@ -14,5 +14,5 @@ body {
 }
 
 .text-blue {
-  color
+  color: var(--mainBlue) !important;
 }
