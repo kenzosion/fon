@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../logo.svg';
 import styled from 'styled-components';
+import {ButtonContainer} from './Button';
 
 
 export default class Navbar extends Component {
@@ -32,8 +33,4 @@ export default class Navbar extends Component {
   }
 }
 
-const ButtonContainer = styled.button`
-font-size: 1.2rem;
-padding: 0.5rem;
-border-radius: 99%;
-`;
+
