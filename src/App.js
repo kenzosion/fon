@@ -8,7 +8,7 @@ import Default from './components/Default';
 import Details from './components/Details';
 import Navbar from './components/Navbar';
 import ProductList from './components/ProductList';
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter as Router} from 'react-router-dom'
 
 
 class App extends Component {
