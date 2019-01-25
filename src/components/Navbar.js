@@ -8,7 +8,7 @@ import {ButtonContainer} from './Button';
 export default class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-sm bg-secondary navbar-dark px-sm-5">
+      <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
         {/* 
           https://www.iconfinder.com/icons/1243689/call_phone_icon
           Creative Commons (Attribution 3.0 Unported);
@@ -28,9 +28,14 @@ export default class Navbar extends Component {
                   <i className="fas fa-cart-plus"/> Cart
                 </ButtonContainer>
               </Link>
-      </nav>
+      </NavWrapper>
     );
   }
 }
+
+const NavWrapper = styled.nav`
+  background: var(--mainRed);
+  font-size: 1.3rem;
+`
 
 
