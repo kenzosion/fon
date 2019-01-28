@@ -6,12 +6,14 @@ export default class ProductList extends Component {
   state = {
     products: storeProducts
   };
-  
+
   render() {
+    console.log(this.state.products);
+
     return (
-      <div>
-        <h3>Hello from Product List</h3>
-      </div>
+      <React.Fragment>
+        <div className="py-5"></div>
+      </React.Fragment>
     )
   }
 }
