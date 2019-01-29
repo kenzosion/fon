@@ -5,7 +5,7 @@ import { storeProducts } from '../data';
 
 export default class ProductList extends Component {
   state = {
-    products: storeProducts
+    products: []
   };
 
   render() {
